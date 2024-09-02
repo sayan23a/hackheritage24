@@ -13,10 +13,11 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-image: url('https://t4.ftcdn.net/jpg/00/88/77/47/240_F_88774737_rteelY3QeIgcysysRUtUejr2QK038Nbp.jpg');
+            background-image: url('https://polsky.uchicago.edu/wp-content/uploads/2020/08/ai-istock-putilich-2048x1154.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
         header {
 
@@ -26,12 +27,15 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-bottom: solid 4px rgba(245, 245, 245, 0.892);
+            box-shadow: 0 0 10px 1px whitesmoke;
         }
         header h1 {
             margin: 0;
             font-size: 2.5rem;
             font-weight: 700;
             color: #ffffff; /* Bright Yellow */
+            
         }
         .container {
             max-width: 1200px;
@@ -53,7 +57,8 @@
         }
         .sub-branch {
             background-color: rgba(249, 210, 92, 0.164); /* Light Yellow */
-            border: 1px solid #25f2f9; /* Bright Yellow */
+            /* border: 1px solid #cef4f6;  */
+            box-shadow: 0 0 10px 1px rgb(252, 252, 252);
             backdrop-filter: blur(10px);
             padding: 20px;
             color: #fef900;
@@ -96,11 +101,11 @@
             font-size: 1.2rem;
             margin-right: 10px;
         }
-        @keyframes physics-animation {
+        /* @keyframes physics-animation {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
-        }
+        } */
         .sub-branch {
             animation: physics-animation 1s infinite;
         }
